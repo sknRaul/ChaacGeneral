@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cachalote.blogspot.myapplication.MainActivity"
+    android:columnCount="1"
+    tools:showIn="@layout/app_bar_main">
+
+    <ImageView
+        android:id="@+id/water_tank_imagen"
+        android:src="@drawable/water_0"
+        android:layout_width="204dp"
+        android:layout_height="255dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/swich_label"
+        android:text="@string/power"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Switch
+        android:id="@+id/swich_power_device"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50sp"
+        android:checked="true"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        />
+
+    <TextView
+        android:id="@+id/water_level"
+        android:text="0%"
+        android:textSize="40sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textandicons"
+        />
+
+    <TextView
+        android:id="@+id/data_get"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+</GridLayout>

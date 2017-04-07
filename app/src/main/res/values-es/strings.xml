@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chaac</string>
+    <string name="about">Acerca de</string>
+    <string name="action_settings">Opciones</string>
+    <string name="add_event">Añadir evento</string>
+    <string name="developers">Desarrolladores:</string>
+    <string name="device_selected">Dispositivo seleccionado</string>
+    <string name="home">Inicio</string>
+    <string name="lost_connection">Conexión perdida</string>
+    <string name="navigation_drawer_close"></string>
+    <string name="off">Apagado</string>
+    <string name="on">Encendido</string>
+    <string name="power">Dispositivo</string>
+    <string name="search_device">Buscar dispositivos</string>
+    <string name="share">Compartir</string>
+</resources>
